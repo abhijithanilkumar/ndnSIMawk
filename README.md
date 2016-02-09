@@ -3,7 +3,7 @@ Awk Script to compute the cache hit ratio in NDN Content Store!
 
 Usage :
 
-1. Move to the ```Files\``` folder.
+1. Move to the ```Files/``` folder.
 2. Type the following command : 
 ```bash
 awk -f ../Script/cache.awk <filename_1> <filename_2> <filename_3> <filename_4> <filename_5>
