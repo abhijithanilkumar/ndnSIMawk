@@ -72,7 +72,7 @@ BEGIN{
 
 END{
     print nocache_hit
-    printf " Algorithm    Hit Ratio \n" > results
+    printf " Algorithm     Hit/Miss Ratio \n" > results
     printf "  FIFO          %f%%      \n", (fifo_hit/fifo_miss)*100 > results
     printf "  LRU           %f%%      \n", (lru_hit/lru_miss)*100 > results
     printf "  LFU           %f%%      \n", (lfu_hit/lfu_miss)*100 > results

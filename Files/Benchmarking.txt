@@ -1,6 +1,6 @@
- Algorithm    Hit Ratio 
-  FIFO          43.057607%      
-  LRU           43.057607%      
-  LFU           43.057607%      
+ Algorithm     Hit/Miss Ratio 
+  FIFO          26.479083%      
+  LRU           26.921696%      
+  LFU           11.194362%      
   NOCACHE       0.000000%      
   RANDOM        -nan%      
