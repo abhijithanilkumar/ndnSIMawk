@@ -48,7 +48,7 @@ BEGIN{
         if($3 == "CacheHits")
             lfu_hit += $4
         if($3 == "CacheMisses")
-            lfu_miss += $4 
+            lfu_miss += $4
     }
 
     #NOCACHE
