@@ -1,6 +1,6 @@
 #Plot Graphs Using Gadfly
 using DataFrames, Gadfly, Colors
-data1 = readtable("./combined_data.txt", separator=' ')
+data1 = readtable("./lfu_benchmark.txt", separator=' ')
 n = size(keys(data1.colindex),1)-1
 cols = distinguishable_colors(n, colorant"black")
 algos = keys(data1.colindex)[2:end]
