@@ -34,7 +34,7 @@ END{
   for(i=1;i<ARGC;++i)
   {
     print lru_hit[i]," ",lru_miss[i]
-    print (i*50)," ",(lru_hit[i]/(lru_hit[i]+lru_miss[i])),"\n" > results
+    print (i*100)," ",(lru_hit[i]/(lru_hit[i]+lru_miss[i])),"\n" > results
   }
 
 }
