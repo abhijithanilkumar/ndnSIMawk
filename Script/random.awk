@@ -34,7 +34,7 @@ END{
   for(i=1;i<ARGC;++i)
   {
     print random_hit[i]," ",random_miss[i]
-    print (i*100)," ",(random_hit[i]/(random_hit[i]+random_miss[i])),"\n" > results
+    print (i*200)," ",(random_hit[i]/(random_hit[i]+random_miss[i])),"\n" > results
   }
 
 }

@@ -34,7 +34,7 @@ END{
   for(i=1;i<ARGC;++i)
   {
     print fifo_hit[i]," ",fifo_miss[i]
-    print (i*100)," ",(fifo_hit[i]/(fifo_hit[i]+fifo_miss[i])),"\n" > results
+    print (i*200)," ",(fifo_hit[i]/(fifo_hit[i]+fifo_miss[i])),"\n" > results
   }
 
 }
