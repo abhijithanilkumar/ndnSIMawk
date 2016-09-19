@@ -5,7 +5,7 @@ n = size(keys(data1.colindex),1)-1
 cols = [colorant"black",colorant"blue",colorant"red"]
 algos = keys(data1.colindex)[2:end]
 Gadfly.set_default_plot_size(12inch, 6inch)
-p=Gadfly.plot([layer(data1, y=algos[i],x="CacheSize", Geom.smooth, Theme(default_color=cols[i],line_width=.8mm,minor_label_font_size=100,key_label_font_size=20)) for i=1:n]..., Guide.XLabel("Cache Size"),
+p=Gadfly.plot([layer(data1, y=algos[i],x="CacheSize", Geom.smooth, Theme(default_color=cols[i],line_width=.8mm,key_label_font_size=20)) for i=1:n]..., Guide.XLabel("Cache Size"),
 Guide.YLabel("Hit Ratio"),
 Guide.Title("Cache Size vs Hit Ratio"),
 Guide.manual_color_key("Legend", [replace(string(i),"_",".") for i in algos], cols))
