@@ -24,4 +24,4 @@ The results are stored in the ```Benchmarking.txt``` file. Hit Ratio of each alg
 
 ## Results using Icarus
 
-The results for different cache replacement algorithms plotted using Icarus are available [here](https://github.com/cjamadagni/Icarus_scripts).
+The results for different cache replacement algorithms plotted using [Icarus](https://icarus-sim.github.io/) are available [here](https://github.com/cjamadagni/Icarus_scripts).
